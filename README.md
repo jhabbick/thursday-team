@@ -14,7 +14,7 @@ Open [http://127.0.0.1:8080](http://127.0.0.1:8080).
 
 ## Contact form
 
-The contact form posts to [Formspree](https://formspree.io). Create a free form, then replace `YOUR_FORM_ID` in `contact/index.html` with that form’s id. Until then, submitting the form on this preview shows the thank-you message without sending email.
+The contact page embeds a [Fillout](https://www.fillout.com) form. Submissions are handled in Fillout.
 
 ## GitHub Pages
 

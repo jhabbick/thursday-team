@@ -4,7 +4,6 @@
   --teal: #476c77;
   --accent: #efb071;
   --line: #d5d5d5;
-  --field: #f2f2f2;
   --white: #fff;
   --max: 1500px;
   --gutter: 4vw;
@@ -440,14 +439,6 @@ p:last-child {
   margin-bottom: 2rem;
 }
 
-.names {
-  align-items: end;
-}
-
-.field > span {
-  white-space: nowrap;
-}
-
 .rule {
   width: 180px;
   border: 0;
@@ -460,76 +451,11 @@ p:last-child {
   line-height: 1.7;
 }
 
-.form {
-  display: grid;
-  gap: 1.05rem;
-}
-
-.names {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1.2rem;
-}
-
-.field,
-.field-label {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-  font-size: 0.95rem;
-  font-weight: 400;
-}
-
-.field-label {
-  margin-bottom: 0.15rem;
-}
-
-.req {
-  font-weight: 300;
-  color: #7a8386;
-  font-size: 0.86rem;
-}
-
-input,
-textarea {
-  width: 100%;
-  background: var(--field);
-  border: 1px solid #cfcfcf;
-  color: var(--ink);
-  font: inherit;
-  font-weight: 300;
-  padding: 0.72rem 0.75rem;
-  border-radius: 0;
-}
-
-textarea {
-  min-height: 140px;
-  resize: vertical;
-}
-
-input:focus,
-textarea:focus,
 .btn:focus-visible,
 .site-nav a:focus-visible,
 .nav-toggle:focus-visible {
   outline: 2px solid var(--teal);
   outline-offset: 2px;
-}
-
-.form .btn {
-  justify-self: start;
-  margin-top: 0.4rem;
-}
-
-.form-thanks {
-  background: #f6f7f7;
-  padding: 1.5rem;
-  font-size: 1.15rem;
-}
-
-.form-error {
-  color: #8a2e2e;
-  margin: 0;
 }
 
 .story .logo-block {
@@ -717,7 +643,6 @@ textarea:focus,
   .team,
   .work-grid,
   .person,
-  .names,
   .footer-top {
     grid-template-columns: 1fr;
   }
